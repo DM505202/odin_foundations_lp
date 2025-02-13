@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+
 }
 
 .hero {
@@ -36,6 +37,8 @@ a:link {
 .headerlinks {
     justify-items: right;
     justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .headerlinks:link {
@@ -43,7 +46,104 @@ a:link {
 }
 
 .mainhero {
-    background-color: green;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.mainhero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.mainhero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.headercta {
+
+    flex: 1;
+    align-content: center;
+}
+
+.hr {
+
+    flex: 1;
+    align-items: center;
+}
+
+.headerimg {
+    background-color: gray;
+    justify-items: center;
+    padding: 20%;
+}
+
+.headercta button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.randinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+.tilesection {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 200px;
+    gap: 20px;
+    justify-items: center;
+}
+
+.randinfo h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.box {
+    border:3px solid #3882f6;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+ 
+}
+
+.tiletext {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    
 }
