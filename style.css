@@ -147,3 +147,24 @@ a:link {
     max-width: 100px;
     
 }
+
+.quotesection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 250px;
+}
+
+.quote {        
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.citation {    
+    display: flex;
+    justify-content: right;
+    font-size: 28px;
+    font-weight: 900;
+}
