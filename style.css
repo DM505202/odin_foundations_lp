@@ -152,7 +152,7 @@ a:link {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 150px 250px;
+    padding: 150px 500px;
 }
 
 .quote {        
@@ -167,4 +167,58 @@ a:link {
     justify-content: right;
     font-size: 28px;
     font-weight: 900;
+}
+
+.bottomsection {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 200px;
+    gap: 20px;
+    justify-content: center;
+ 
+}
+
+.CTAbox {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 200px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.CTAleft {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 100px;
+}
+
+.CTAtitle {
+    font-weight: 900;
+}
+
+.CTAright {
+    display: flex;
+}
+
+.CTAright button {
+    align-content: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 2px 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+
 }
